@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/day9.c 
+../src/day9.c \
+../src/stackSource.c 
 
 OBJS += \
-./src/day9.o 
+./src/day9.o \
+./src/stackSource.o 
 
 C_DEPS += \
-./src/day9.d 
+./src/day9.d \
+./src/stackSource.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
